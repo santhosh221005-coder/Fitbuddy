@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Plan - FitBuddy 7-Day High-Intensity Training</title>
+  <meta name="description" content="7-Day High-Intensity Workout Plan for Fat Loss & Muscle Gain with interactive tracking, rest timer, and full exercise guides.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="app-header">
+      <!-- Project Developer & Designer Information -->
+      <div class="developer-info-card">
+        <div class="developer-role-badge">
+          <svg class="dev-badge-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>Project Developer and Designer</span>
+        </div>
+        <h2 class="developer-name">Santhosh R</h2>
+        <p class="developer-college">2nd year bsc computer science government Arts college (Autonomous) Kumbakonam</p>
+      </div>
+
+      <div class="brand-badge">
+        <span class="dot"></span>
+        <span>FitBuddy AI Routine</span>
+      </div>
+      <h1 class="main-title" id="pageMainHeading">Workout Plan</h1>
+      <p class="subtitle">7-Day High-Intensity Workout Plan for Fat Loss &amp; Muscle Gain</p>
+    </header>
+
+    <!-- Top Toolbar Controls -->
+    <section class="top-toolbar" aria-label="Workout plan views and actions">
+      <div class="view-toggle-group">
+        <button class="toggle-btn active" id="viewInteractiveBtn" title="Interactive cards with checkboxes and timers">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+          Interactive View
+        </button>
+        <button class="toggle-btn" id="viewRawBtn" title="View original markdown text format">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Original Text View
+        </button>
+      </div>
+
+      <div class="toolbar-actions">
+        <button class="btn btn-secondary btn-sm" id="printPlanBtn" title="Print plan or save as PDF">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          Print / PDF
+        </button>
+        <button class="btn btn-ghost btn-sm" id="resetAllBtn" title="Reset all exercise checkmarks">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+          Reset All
+        </button>
+      </div>
+    </section>
+
+    <!-- Days Navigation -->
+    <nav class="days-nav-wrapper" aria-label="Select workout day">
+      <div class="day-tabs" id="dayTabs">
+        <!-- Rendered by app.js -->
+      </div>
+    </nav>
+
+    <!-- Workout Content Container -->
+    <main class="main-card" id="workoutContentArea">
+      <!-- Rendered by app.js -->
+    </main>
+  </div>
+
+  <!-- Floating Rest Timer Widget -->
+  <aside class="timer-floating-widget" id="restTimerWidget" aria-label="Rest period timer">
+    <div class="timer-circle-wrap">
+      <svg class="timer-svg" viewBox="0 0 100 100">
+        <circle class="timer-bg-circle" cx="50" cy="50" r="45"></circle>
+        <circle class="timer-fg-circle" id="timerProgressCircle" cx="50" cy="50" r="45"></circle>
+      </svg>
+      <span class="timer-time-text" id="timerDisplay">01:00</span>
+    </div>
+
+    <div class="timer-controls">
+      <div class="timer-title">Rest Timer</div>
+      <div class="timer-button-row">
+        <button class="btn btn-primary btn-sm" id="timerToggleBtn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          Start
+        </button>
+        <button class="btn btn-secondary btn-sm" id="timerResetBtn" title="Reset Timer">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="timer-presets">
+        <button class="timer-preset-btn" data-seconds="30">30s</button>
+        <button class="timer-preset-btn active" data-seconds="60">60s</button>
+        <button class="timer-preset-btn" data-seconds="90">90s</button>
+        <button class="timer-preset-btn" data-seconds="120">2m</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>

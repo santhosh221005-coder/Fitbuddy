@@ -1,0 +1,108 @@
+{
+  "title": "7-Day High-Intensity Workout Plan for Fat Loss & Muscle Gain",
+  "description": "This plan focuses on compound exercises to maximize calorie burn and muscle engagement. Remember to adjust the intensity based on your fitness level and consult a doctor before starting any new workout routine. Proper nutrition is crucial for achieving your goals, so ensure you're supporting your training with a healthy diet.",
+  "days": [
+    {
+      "id": 1,
+      "title": "Day 1: Upper Body Strength",
+      "category": "Strength",
+      "warmup": "Jumping jacks (60 seconds), high knees (30 seconds), arm circles (forward and backward, 30 seconds each), dynamic stretches like arm swings and torso twists (1 min).",
+      "exercises": [
+        {"name": "Barbell Bench Press", "sets": "3 sets of 8-12 reps", "target": "Chest & Triceps"},
+        {"name": "Pull-ups (or Lat Pulldowns)", "sets": "3 sets of 8-12 reps", "target": "Upper Back & Biceps"},
+        {"name": "Overhead Press", "sets": "3 sets of 8-12 reps", "target": "Shoulders & Core"},
+        {"name": "Barbell Rows", "sets": "3 sets of 8-12 reps", "target": "Back & Lats"},
+        {"name": "Dumbbell Bicep Curls", "sets": "3 sets of 10-15 reps", "target": "Biceps"},
+        {"name": "Dumbbell Triceps Extensions", "sets": "3 sets of 10-15 reps", "target": "Triceps"}
+      ],
+      "cooldown": "Static stretches holding each for 30 seconds (chest, back, biceps, triceps, shoulders)."
+    },
+    {
+      "id": 2,
+      "title": "Day 2: Lower Body & Core",
+      "category": "Lower Body",
+      "warmup": "Bodyweight squats (15 reps), lunges (10 reps per leg), glute bridges (15 reps), plank (30 seconds).",
+      "exercises": [
+        {"name": "Barbell Squats", "sets": "3 sets of 8-12 reps", "target": "Quads & Glutes"},
+        {"name": "Romanian Deadlifts", "sets": "3 sets of 10-15 reps", "target": "Hamstrings & Glutes"},
+        {"name": "Walking Lunges", "sets": "3 sets of 12-15 reps per leg", "target": "Quads & Balance"},
+        {"name": "Glute Bridges", "sets": "3 sets of 15-20 reps", "target": "Glutes & Lower Back"},
+        {"name": "Hanging Leg Raises", "sets": "3 sets to failure", "target": "Lower Abs"},
+        {"name": "Russian Twists", "sets": "3 sets of 15-20 reps per side", "target": "Obliques"}
+      ],
+      "cooldown": "Foam roll quads, hamstrings, and glutes. Static stretches for hip flexors, hamstrings, and glutes (30 seconds each)."
+    },
+    {
+      "id": 3,
+      "title": "Day 3: HIIT Cardio & Core",
+      "category": "Cardio & Core",
+      "warmup": "Light cardio, like jogging or jumping jacks, followed by dynamic stretches.",
+      "exercises": [
+        {"name": "Burpees", "sets": "3 sets of 10-15 reps", "target": "Full Body Cardio"},
+        {"name": "Mountain Climbers", "sets": "3 sets of 30-60 seconds", "target": "Core & Cardio"},
+        {"name": "Jump Squats", "sets": "3 sets of 10-15 reps", "target": "Explosive Legs"},
+        {"name": "High Plank Shoulder Taps", "sets": "3 sets of 20 taps", "target": "Core Stability"},
+        {"name": "Bicycle Crunches", "sets": "3 sets of 20 reps", "target": "Abs & Obliques"}
+      ],
+      "cooldown": "5 minutes light walk, child's pose, cobra stretch, and seated forward reach."
+    },
+    {
+      "id": 4,
+      "title": "Day 4: Active Recovery & Mobility",
+      "category": "Recovery",
+      "warmup": "5 minutes gentle neck rolls, shoulder rolls, and hip openers.",
+      "exercises": [
+        {"name": "Brisk Walking or Light Cycling", "sets": "20-30 mins continuous", "target": "Blood Flow"},
+        {"name": "World's Greatest Stretch", "sets": "3 sets of 5 reps/side", "target": "Hips & Thoracic Spine"},
+        {"name": "90/90 Hip Mobility Flow", "sets": "3 sets of 8 transitions", "target": "Hip Joint Range"},
+        {"name": "Cat-Cow Spine Flow", "sets": "3 sets of 10 breaths", "target": "Spine Health"},
+        {"name": "Pigeon Pose", "sets": "2 sets of 45s hold/side", "target": "Deep Glute Stretch"}
+      ],
+      "cooldown": "Full-body foam rolling (quads, hamstrings, lats) and 5 minutes diaphragmatic breathing."
+    },
+    {
+      "id": 5,
+      "title": "Day 5: Upper Body Hypertrophy",
+      "category": "Strength",
+      "warmup": "Band pull-aparts (20 reps), arm swings, and 10 controlled push-ups.",
+      "exercises": [
+        {"name": "Incline Dumbbell Bench Press", "sets": "3 sets of 10-12 reps", "target": "Upper Chest"},
+        {"name": "Seated Cable Rows", "sets": "3 sets of 10-12 reps", "target": "Lats & Rhomboids"},
+        {"name": "Dumbbell Lateral Raises", "sets": "4 sets of 12-15 reps", "target": "Side Deltoids"},
+        {"name": "Cable Face Pulls", "sets": "3 sets of 15 reps", "target": "Rear Delts & Posture"},
+        {"name": "Dumbbell Hammer Curls", "sets": "3 sets of 12 reps", "target": "Brachialis & Forearms"},
+        {"name": "Cable Tricep Pushdowns", "sets": "3 sets of 12-15 reps", "target": "Triceps"}
+      ],
+      "cooldown": "Chest doorframe stretch, overhead tricep stretch, and cross-arm shoulder stretch."
+    },
+    {
+      "id": 6,
+      "title": "Day 6: Lower Body Power & Conditioning",
+      "category": "Lower Body",
+      "warmup": "Dynamic leg swings, bodyweight squats, and glute bridge marches.",
+      "exercises": [
+        {"name": "Deadlifts (Conventional or Trap Bar)", "sets": "3 sets of 6-8 reps", "target": "Posterior Chain"},
+        {"name": "Bulgarian Split Squats", "sets": "3 sets of 10 reps/leg", "target": "Quads & Glute Medius"},
+        {"name": "Leg Press or Goblet Squats", "sets": "3 sets of 10-12 reps", "target": "Quadriceps"},
+        {"name": "Standing Calf Raises", "sets": "4 sets of 15-20 reps", "target": "Calves"},
+        {"name": "Plank to Push-up", "sets": "3 sets of 10-12 reps", "target": "Core & Shoulders"},
+        {"name": "Dead Bug Exercise", "sets": "3 sets of 12 reps/side", "target": "Deep Core"}
+      ],
+      "cooldown": "Foam roll IT band, quads, and calves. Deep runner's lunge and butterfly stretch."
+    },
+    {
+      "id": 7,
+      "title": "Day 7: Full Body HIIT & Core Burnout",
+      "category": "HIIT & Cardio",
+      "warmup": "Jumping jacks, butt kicks, arm pulses, and high knee marches (5 mins).",
+      "exercises": [
+        {"name": "Kettlebell (or DB) Swings", "sets": "4 rounds of 45s work / 15s rest", "target": "Power & Caloric Burn"},
+        {"name": "Box Jumps or Step-ups", "sets": "4 rounds of 45s work / 15s rest", "target": "Lower Body Power"},
+        {"name": "Push-ups to Mountain Climber", "sets": "4 rounds of 45s work / 15s rest", "target": "Upper Body & Stamina"},
+        {"name": "Dumbbell Thrusters", "sets": "4 rounds of 45s work / 15s rest", "target": "Full Body Metabolic"},
+        {"name": "Forearm Plank Hold", "sets": "4 rounds of 45s hold / 15s rest", "target": "Core Endurance"}
+      ],
+      "cooldown": "10 minutes slow yoga stretches: child's pose, cobra, downward dog, and seated forward fold."
+    }
+  ]
+}
